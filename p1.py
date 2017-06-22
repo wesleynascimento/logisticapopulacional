@@ -23,10 +23,10 @@ plt.rc('font', **{'sans-serif' : 'Arial', 'family' : 'sans-serif'})
 plt.xlabel(r'\textit{Tempo} (s)')
 plt.ylabel(r'\textit{$x(t)$}')
 
-plt.title(r'Crescimento populacional - $x_0 = 0.8$', fontsize=18)
+plt.title(r'Crescimento populacional - $x_0 = 0.6$', fontsize=18)
 
 for i in r:
-	x=[0.55]
+	x=[0.6]
 	t=[0.]	
 	for tt in range(1000):
 		x.append((i*x[-1]*(1 - x[-1])))
